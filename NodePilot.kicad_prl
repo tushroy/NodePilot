@@ -54,8 +54,8 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "ssh",
+    "repo_username": "git",
     "ssh_key": ""
   },
   "meta": {
