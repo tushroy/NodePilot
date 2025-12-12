@@ -1,7 +1,3 @@
-# Created by https://www.toptal.com/developers/gitignore/api/kicad
-# Edit at https://www.toptal.com/developers/gitignore?templates=kicad
-
-### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -12,14 +8,19 @@
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
-*.kicad_prl
-*.sch-bak
+*-cache*
+*-bak
+*-bak*
 *~
+~*
 _autosave-*
+\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+~*.lck
+\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -32,13 +33,8 @@ fp-info-cache
 *.xml
 *.csv
 
-### KiCad Patch ###
-rescue-backup/
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
 
-*.tsv
-bom/
-
-# Gerber export output
-out/
-
-# End of https://www.toptal.com/developers/gitignore/api/kicad
+# Local project settings
+*.kicad_prl
