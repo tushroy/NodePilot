@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "NodePilot By S21TIP")
-		(date "2025-12-12")
-		(rev "3.1")
+		(date "2025-12-13")
+		(rev "3.2")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -2648,12 +2648,6 @@
 		(color 0 0 0 0)
 		(uuid "f7b6f711-b43d-4e77-8a7b-69b85907f853")
 	)
-	(junction
-		(at 77.47 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc3aac71-01e5-4aa2-ad54-beb3f2ad3798")
-	)
 	(no_connect
 		(at 163.83 26.67)
 		(uuid "44e44d4f-fe93-48e6-b1ba-3bf1ab4958f6")
@@ -2754,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 154.94) (xy 68.58 154.94)
+			(xy 82.55 154.94) (xy 90.17 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2771,16 +2765,6 @@
 			(type default)
 		)
 		(uuid "374961bb-7d91-47e3-a6f9-a96c62ce6a9a")
-	)
-	(wire
-		(pts
-			(xy 77.47 59.69) (xy 77.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8ad1db-5df3-42af-893f-cd05015b7b8b")
 	)
 	(wire
 		(pts
@@ -2821,16 +2805,6 @@
 			(type default)
 		)
 		(uuid "4e8a27f4-2d65-4fc1-a4cd-6f149d74b724")
-	)
-	(wire
-		(pts
-			(xy 137.16 149.86) (xy 146.05 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e20b00-2ea4-4a99-9334-c1d2b2319a14")
 	)
 	(wire
 		(pts
@@ -2984,23 +2958,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 77.47 67.31)
+			(xy 71.12 67.31) (xy 96.52 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8115be71-bd32-4c2a-a881-99c5e8adb586")
-	)
-	(wire
-		(pts
-			(xy 77.47 67.31) (xy 96.52 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e9e8cb-1b0e-4dfe-96c5-9c20d6b7ef9b")
 	)
 	(wire
 		(pts
@@ -3104,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 163.83) (xy 87.63 160.02)
+			(xy 109.22 163.83) (xy 109.22 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3121,16 +3085,6 @@
 			(type default)
 		)
 		(uuid "9e603b5d-3fe8-4c7e-929e-e8f7a2204f31")
-	)
-	(wire
-		(pts
-			(xy 123.19 149.86) (xy 129.54 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d741e7-f8e1-4660-85be-246b7a927168")
 	)
 	(wire
 		(pts
@@ -3354,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 154.94) (xy 80.01 154.94)
+			(xy 97.79 154.94) (xy 101.6 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 149.86) (xy 115.57 149.86)
+			(xy 109.22 149.86) (xy 146.05 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3466,7 +3420,7 @@
 	)
 	(global_label "GPIO3"
 		(shape output)
-		(at 60.96 154.94 180)
+		(at 82.55 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3476,7 +3430,7 @@
 		)
 		(uuid "1306d1c6-9182-48e9-8c8f-6e72ac312c66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.29 154.94 0)
+			(at 73.88 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,74 +3860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 133.35 149.86 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cf4425a-a111-4ecb-b0a0-ecc572804067")
-		(property "Reference" "R4"
-			(at 133.35 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220 ohm"
-			(at 133.35 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.604 150.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 133.35 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b10d26d-4c55-498d-b424-17d563e5f402")
-		)
-		(pin "1"
-			(uuid "ae9ad64b-3f12-4898-b002-16b45cb6de04")
-		)
-		(instances
-			(project ""
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener_Filled")
 		(at 40.64 90.17 90)
 		(mirror x)
@@ -4039,77 +3925,6 @@
 			(project ""
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 77.47 63.5 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d59c5a-51b5-4802-b617-d6b28945e179")
-		(property "Reference" "R1"
-			(at 80.01 64.7701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k ohm"
-			(at 80.01 62.2301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.486 63.246 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7dd8fd5-37eb-4203-a2db-519468baa1f4")
-		)
-		(pin "1"
-			(uuid "cbe841e0-85cf-4c14-a217-5640f0035e2c")
-		)
-		(instances
-			(project ""
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4946,83 +4761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 119.38 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "751d64d7-78f4-4c25-894e-92b40db89603")
-		(property "Reference" "D3"
-			(at 117.7925 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED LED"
-			(at 117.7925 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e039cd0-3b80-40e0-8137-2c9c7f11a530")
-		)
-		(pin "2"
-			(uuid "7728f5b6-56c7-44ba-9331-e883215f87f2")
-		)
-		(instances
-			(project ""
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
 		(at 151.13 140.97 0)
 		(unit 1)
@@ -5245,7 +4983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 87.63 163.83 0)
+		(at 109.22 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5254,7 +4992,7 @@
 		(fields_autoplaced yes)
 		(uuid "96b9d787-526d-4f83-b253-5ad11c2d80ab")
 		(property "Reference" "#PWR02"
-			(at 87.63 170.18 0)
+			(at 109.22 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5001,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 87.63 168.91 0)
+			(at 109.22 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 163.83 0)
+			(at 109.22 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 163.83 0)
+			(at 109.22 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 87.63 163.83 0)
+			(at 109.22 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5184,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 85.09 154.94 0)
+		(at 106.68 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5454,7 +5192,7 @@
 		(dnp no)
 		(uuid "9b5ad23e-6da7-4307-ac3f-1fe555e29b5d")
 		(property "Reference" "Q3"
-			(at 90.17 153.6699 0)
+			(at 111.76 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5201,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 90.17 156.2099 0)
+			(at 111.76 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5210,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 90.17 156.845 0)
+			(at 111.76 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5221,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 85.09 154.94 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5231,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 85.09 154.94 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5259,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 72.39 154.94 90)
+		(at 93.98 154.94 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5530,7 +5268,7 @@
 		(dnp no)
 		(uuid "a00d102a-b2c5-48e5-8e8f-619519153c88")
 		(property "Reference" "R9"
-			(at 72.39 161.29 90)
+			(at 93.98 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5276,7 @@
 			)
 		)
 		(property "Value" "10k ohm"
-			(at 72.39 158.75 90)
+			(at 93.98 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.644 155.956 90)
+			(at 94.234 155.956 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 154.94 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5302,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 72.39 154.94 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
