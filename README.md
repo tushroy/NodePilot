@@ -31,7 +31,7 @@ The complete KiCad schematic, PCB (Work-in-progress), and design files are publi
 
 ## 𖤓 Schematic
 
-![NodePilot Schematic](/images/NodePilot-S21TIP.png)
+![NodePilot Schematic](/images/NodePilot.svg)
 
 ---
 
