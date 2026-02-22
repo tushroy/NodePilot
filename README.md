@@ -35,6 +35,10 @@ The complete KiCad schematic, PCB (Work-in-progress), and design files are publi
 
 ---
 
+![NodePilot Schematic](/images/NodePilot_Remix_v1.0.jpeg)
+
+---
+
 ## 📜 License
 
 This project is released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)** license.  
