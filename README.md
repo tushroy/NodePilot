@@ -35,7 +35,7 @@ The complete KiCad schematic, PCB (Work-in-progress), and design files are publi
 
 ---
 
-![NodePilot Schematic](/images/NodePilot_Remix_v1.0.jpeg)
+<img src="/images/NodePilot_Remix_v1.0.jpeg" width="60%">
 
 ---
 
