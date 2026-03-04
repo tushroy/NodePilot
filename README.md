@@ -1,5 +1,5 @@
 ![NodePilot Logo](/images/nodepilot-logo-bw.svg)
-# NodePilot Remix– CM108-Based AllStarLink Radio Interface  
+# NodePilot – CM108-Based AllStarLink Radio Interface  
 NodePilot is a compact, reliable, and isolated **AllStarLink radio interface** based on the CM108 audio USB chipset by **S21TIP**.  
 This project was designed for both personal use and small-scale production, with a focus on audio quality, RF robustness, and hardware protection.
 
@@ -9,10 +9,10 @@ The complete KiCad schematic, PCB (Work-in-progress), and design files are publi
 
 ## 🔧 Features
 
-- ✔️ CM108 Frontend Protection  
-- ✔️ Full Audio Isolation  
-- ✔️ Compact & Modular  
-- ✔️ Open Hardware  
+✔️ CM108 Frontend Protection  
+✔️ Full Audio Isolation  
+✔️ Compact & Modular  
+✔️ Open Hardware  
 
 ---
 
