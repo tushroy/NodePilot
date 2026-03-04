@@ -1,0 +1,50 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Center everything -->
+  <g transform="translate(300,220)">
+
+    <!-- Symbol -->
+    <g stroke="#000000" fill="none" stroke-width="6">
+
+      <!-- Circular system node -->
+      <circle cx="0" cy="0" r="90"/>
+
+      <!-- Isolation barrier -->
+      <line x1="0" y1="-90" x2="0" y2="90"/>
+
+      <!-- RF waveform -->
+      <path d="M-60 0 Q-30 -35 0 0 Q30 35 60 0"
+            stroke-linecap="round"/>
+
+      <!-- PCB terminals -->
+      <line x1="90" y1="-35" x2="130" y2="-35"/>
+      <circle cx="130" cy="-35" r="6" fill="#000000"/>
+
+      <line x1="90" y1="35" x2="150" y2="35"/>
+      <circle cx="150" cy="35" r="6" fill="#000000"/>
+
+    </g>
+
+  </g>
+
+  <!-- Wordmark -->
+  <text x="300" y="420"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="64"
+        font-weight="600"
+        fill="#000000">
+    NodePilot
+  </text>
+
+  <!-- Signature -->
+  <text x="300" y="465"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="20"
+        fill="#000000"
+        letter-spacing="2">
+    by S21TIP
+  </text>
+
+</svg>
