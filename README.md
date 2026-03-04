@@ -4,7 +4,9 @@ NodePilot is a compact, reliable, and isolated **AllStarLink radio interface** b
 
 This project was designed for both personal use and small-scale production, with a focus on audio quality, RF robustness, and hardware protection.
 
-Channel Driver to used with ASL3: Simpleusb 
+Channel Driver to used with ASL3: Simpleusb
+
+Notes: If you are using buck convertors for powering raspbery-pis make sure it has switching frequency greater than 1Mhz for clean audio interfacing, cheap converters are great source of RFI, though this circuit can eliminate most of them.
 
 The complete KiCad schematic, PCB (Work-in-progress), and design files are publicly available under the **CC-BY-SA-4.0** license.
 
