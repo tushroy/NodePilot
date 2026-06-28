@@ -2727,12 +2727,6 @@
 		(uuid "3d055e91-ec21-44eb-a57f-74e88879dffc")
 	)
 	(junction
-		(at 156.21 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b542071-c95e-4c2c-9e9d-362787c989b9")
-	)
-	(junction
 		(at 148.59 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2773,6 +2767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6afb60eb-3ad1-4754-9cfb-6a0795374a71")
+	)
+	(junction
+		(at 165.1 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b540d26-0085-4165-9920-fb9c06b65b7f")
 	)
 	(junction
 		(at 55.88 105.41)
@@ -2841,12 +2841,6 @@
 		(uuid "bb480534-949a-48ee-aa3b-9aa3a8cfdf00")
 	)
 	(junction
-		(at 165.1 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1fcde4f-a515-450d-ac37-88383d13476f")
-	)
-	(junction
 		(at 137.16 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2869,6 +2863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5849e09-e145-4ea8-b351-8b1bdb17507f")
+	)
+	(junction
+		(at 156.21 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb55558d-a620-40f3-ac74-f16b15a65dbf")
 	)
 	(junction
 		(at 110.49 96.52)
@@ -2908,6 +2908,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 91.44) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a94ea9-45f6-47ef-9003-6d2f8b3e6595")
+	)
+	(wire
+		(pts
 			(xy 241.3 57.15) (xy 241.3 115.57)
 		)
 		(stroke
@@ -2915,6 +2925,16 @@
 			(type default)
 		)
 		(uuid "06c2f169-127a-4b8d-b63d-37223e134407")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0846c60b-9009-411d-a2e1-234a6f461940")
 	)
 	(wire
 		(pts
@@ -3098,16 +3118,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37712f4a-d199-4606-bbf9-f3e98023f50f")
-	)
-	(wire
-		(pts
 			(xy 148.59 146.05) (xy 148.59 142.24)
 		)
 		(stroke
@@ -3135,16 +3145,6 @@
 			(type default)
 		)
 		(uuid "41f03545-47d8-48a6-9918-f66cc5870050")
-	)
-	(wire
-		(pts
-			(xy 165.1 91.44) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494e00e4-163d-4ac8-b367-b6fe69a402c3")
 	)
 	(wire
 		(pts
@@ -3345,16 +3345,6 @@
 			(type default)
 		)
 		(uuid "738257f3-beab-4aa3-afc1-f747937fd68c")
-	)
-	(wire
-		(pts
-			(xy 180.34 86.36) (xy 180.34 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738d711b-9b38-4e81-b66f-65cd202be2b3")
 	)
 	(wire
 		(pts
@@ -3768,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 100.33) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d03437-3f88-49fc-b0b6-44fbf06441e3")
+	)
+	(wire
+		(pts
 			(xy 137.16 46.99) (xy 137.16 50.8)
 		)
 		(stroke
@@ -3788,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 96.52) (xy 219.71 96.52)
+			(xy 207.01 96.52) (xy 219.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3898,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 186.69 96.52)
+			(xy 187.96 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4018,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 86.36) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6835c52-8b6b-40a3-b5fe-6f61cbffbc4f")
+	)
+	(wire
+		(pts
 			(xy 127 146.05) (xy 127 151.13)
 		)
 		(stroke
@@ -4038,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 165.1 125.73)
+			(xy 165.1 107.95) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4714,7 +4724,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 167.64 96.52 180)
+		(at 182.88 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4724,7 +4734,7 @@
 		(dnp no)
 		(uuid "148603b9-94ec-43b8-b559-b9e51e3ca15d")
 		(property "Reference" "Q1"
-			(at 162.56 97.7901 0)
+			(at 177.8 97.7901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4735,7 +4745,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 162.56 95.2501 0)
+			(at 177.8 95.2501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4746,7 +4756,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 162.56 94.615 0)
+			(at 177.8 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 167.64 96.52 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4781,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 167.64 96.52 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +4980,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 190.5 96.52 90)
+		(at 203.2 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4981,7 +4991,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e49843d-742f-488b-a80d-e8547955f615")
 		(property "Reference" "R1"
-			(at 190.5 90.17 90)
+			(at 203.2 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4991,7 +5001,7 @@
 			)
 		)
 		(property "Value" "2.2k ohm"
-			(at 190.5 92.71 90)
+			(at 203.2 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5001,7 +5011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.754 95.504 90)
+			(at 203.454 95.504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 96.52 0)
+			(at 203.2 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +5033,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 190.5 96.52 0)
+			(at 203.2 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5376,7 +5386,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 107.95 0)
+		(at 165.1 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5387,7 +5397,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e5533e9-90f9-4b11-92df-1a340fbb0488")
 		(property "Reference" "R2"
-			(at 167.64 106.6799 0)
+			(at 167.64 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5398,7 +5408,7 @@
 			)
 		)
 		(property "Value" "680 ohm"
-			(at 167.64 109.2199 0)
+			(at 167.64 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5409,7 +5419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.116 108.204 90)
+			(at 166.116 104.394 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 107.95 0)
+			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +5441,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 165.1 107.95 0)
+			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
