@@ -4240,7 +4240,7 @@
 			)
 		)
 	)
-	(global_label "EXT_COS"
+	(global_label "EXT_COR"
 		(shape output)
 		(at 222.25 88.9 0)
 		(fields_autoplaced yes)
@@ -4252,7 +4252,7 @@
 		)
 		(uuid "1c882276-c533-4a55-8ae9-f3065966c380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.3389 88.9 0)
+			(at 233.3994 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
