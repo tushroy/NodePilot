@@ -461,7 +461,7 @@
         "uuid": "feb6dcc4-ba57-4640-ad64-1efd302ce012"
       }
     ],
-    "used_designators": "JP1-2",
+    "used_designators": "JP1-2,R1,R16-18,C11",
     "variants": []
   },
   "sheets": [
