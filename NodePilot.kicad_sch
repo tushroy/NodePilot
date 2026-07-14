@@ -5354,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Value" "47 uf"
+		(property "Value" "10 uf"
 			(at 117.221 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uf"
+		(property "Value" "4.7 uf"
 			(at 187.071 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Value" "47 uf"
+		(property "Value" "4.7 uf"
 			(at 185.039 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
