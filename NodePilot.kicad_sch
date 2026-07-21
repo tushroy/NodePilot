@@ -4752,7 +4752,7 @@
 			)
 		)
 	)
-	(global_label "MSS"
+	(global_label "MSS_1517"
 		(shape output)
 		(at 63.5 170.18 180)
 		(fields_autoplaced yes)
@@ -4764,7 +4764,7 @@
 		)
 		(uuid "041dfc00-c700-4e78-a3f3-3038caf60684")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6444 170.18 0)
+			(at 50.8388 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5016,7 @@
 			)
 		)
 	)
-	(global_label "SIM_COR"
+	(global_label "S_COR"
 		(shape input)
 		(at 110.49 172.72 0)
 		(fields_autoplaced yes)
@@ -5028,7 +5028,7 @@
 		)
 		(uuid "de849a82-36d4-4497-9627-30f582ffb4b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.579 172.72 0)
+			(at 119.5228 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
