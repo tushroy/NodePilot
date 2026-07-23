@@ -3237,12 +3237,6 @@
 		(uuid "6bdced07-7515-4dfe-92bf-69aefd99952b")
 	)
 	(junction
-		(at 114.3 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b080154-36af-4517-a0fc-41328a1a93dc")
-	)
-	(junction
 		(at 105.41 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3259,12 +3253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fcb352f-6685-4a41-9bee-a95df94a15c1")
-	)
-	(junction
-		(at 104.14 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94191b93-2801-46a7-85cd-c6a1e47c0e80")
 	)
 	(junction
 		(at 195.58 58.42)
@@ -3431,16 +3419,6 @@
 			(type default)
 		)
 		(uuid "06c2f169-127a-4b8d-b63d-37223e134407")
-	)
-	(wire
-		(pts
-			(xy 105.41 128.27) (xy 104.14 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a1ebf4e-1fea-4d95-8c91-9ef229542e39")
 	)
 	(wire
 		(pts
@@ -3664,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 104.14 128.27)
+			(xy 104.14 119.38) (xy 104.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4144,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 119.38) (xy 114.3 128.27)
+			(xy 114.3 119.38) (xy 114.3 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4191,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "97f6ac33-136d-4461-ab55-3ab7435aad26")
-	)
-	(wire
-		(pts
-			(xy 113.03 128.27) (xy 114.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aea3268-3603-4254-8d26-8422c48ddb07")
 	)
 	(wire
 		(pts
@@ -4444,16 +4412,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 128.27) (xy 104.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd115a8f-52a7-487b-bc1c-0e2a02f9b07a")
-	)
-	(wire
-		(pts
 			(xy 246.38 34.29) (xy 246.38 130.81)
 		)
 		(stroke
@@ -4531,16 +4489,6 @@
 			(type default)
 		)
 		(uuid "c54f0790-7006-4333-97b8-d53d489734a5")
-	)
-	(wire
-		(pts
-			(xy 114.3 128.27) (xy 114.3 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60bca82-5747-491c-9c8a-c4a82dbb8b28")
 	)
 	(wire
 		(pts
@@ -9187,86 +9135,6 @@
 			(project "NodePilot"
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 109.22 128.27 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f399a74f-fe66-4ac1-be9d-b17aaecd6c7c")
-		(property "Reference" "R15"
-			(at 117.602 128.778 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220 ohm"
-			(at 119.126 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.966 127.254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 109.22 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5e7ae09-dcb8-4af2-8225-09ec2bbd06a3")
-		)
-		(pin "2"
-			(uuid "34c701b2-3d67-4492-9d01-7ec2056d833f")
-		)
-		(instances
-			(project "NodePilot"
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "R15")
 					(unit 1)
 				)
 			)
