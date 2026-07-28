@@ -7248,7 +7248,7 @@
 				)
 			)
 		)
-		(property "Value" "1k ohm"
+		(property "Value" "2.2 ohm"
 			(at 184.15 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
