@@ -5114,7 +5114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 95.25 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5196,7 +5196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.276 71.374 90)
 			(hide yes)
 			(show_name no)
@@ -5278,7 +5278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 122.936 48.514 90)
 			(hide yes)
 			(show_name no)
@@ -5438,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 106.934 70.104 90)
 			(hide yes)
 			(show_name no)
@@ -5695,7 +5695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 184.15 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5936,7 +5936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 211.074 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -6018,7 +6018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 86.106 180.594 90)
 			(hide yes)
 			(show_name no)
@@ -6346,7 +6346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 159.766 91.694 90)
 			(hide yes)
 			(show_name no)
@@ -6589,7 +6589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386W_Horizontal"
 			(at 170.18 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 95.504 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 70.866 85.344 90)
 			(hide yes)
 			(show_name no)
@@ -7176,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 92.964 129.794 90)
 			(hide yes)
 			(show_name no)
@@ -7256,7 +7256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 184.404 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -7338,7 +7338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 152.146 29.464 90)
 			(hide yes)
 			(show_name no)
@@ -7598,7 +7598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 86.106 165.354 90)
 			(hide yes)
 			(show_name no)
@@ -7859,7 +7859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 196.596 92.964 90)
 			(hide yes)
 			(show_name no)
@@ -7940,7 +7940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386W_Horizontal"
 			(at 162.56 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8025,7 +8025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 78.486 176.784 90)
 			(hide yes)
 			(show_name no)
@@ -8354,7 +8354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 196.596 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -8436,7 +8436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B0505S-1WR2_MNS"
+		(property "Footprint" "B0505S-WR1:B0505S-1WR2_MNS"
 			(at 115.57 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8524,7 +8524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 49.784 129.794 90)
 			(hide yes)
 			(show_name no)
@@ -8603,7 +8603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 157.734 146.304 90)
 			(hide yes)
 			(show_name no)
@@ -8770,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 58.42 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8932,7 +8932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 71.374 169.164 90)
 			(hide yes)
 			(show_name no)
@@ -9011,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 127.254 139.954 90)
 			(hide yes)
 			(show_name no)
