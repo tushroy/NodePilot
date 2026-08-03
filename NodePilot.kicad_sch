@@ -1253,7 +1253,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Transformer_1P_1S_SO8"
+		(symbol "Device:Transformer_1P_1S"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1273,7 +1273,7 @@
 					)
 				)
 			)
-			(property "Value" "Transformer_1P_1S_SO8"
+			(property "Value" "Transformer_1P_1S"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1305,7 +1305,7 @@
 					)
 				)
 			)
-			(property "Description" "Transformer, single primary, single secondary, SO-8 package"
+			(property "Description" "Transformer, single primary, single secondary"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1327,7 +1327,7 @@
 					)
 				)
 			)
-			(symbol "Transformer_1P_1S_SO8_0_1"
+			(symbol "Transformer_1P_1S_0_1"
 				(arc
 					(start -1.27 3.81)
 					(mid -1.656 2.9336)
@@ -1545,10 +1545,10 @@
 					)
 				)
 			)
-			(symbol "Transformer_1P_1S_SO8_1_1"
+			(symbol "Transformer_1P_1S_1_1"
 				(pin passive line
-					(at -7.62 5.08 0)
-					(length 5.08)
+					(at -10.16 5.08 0)
+					(length 7.62)
 					(name "AA"
 						(effects
 							(font
@@ -1565,8 +1565,8 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 5.08)
+					(at -10.16 -5.08 0)
+					(length 7.62)
 					(name "AB"
 						(effects
 							(font
@@ -1574,7 +1574,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1583,8 +1583,8 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 5.08)
+					(at 10.16 -5.08 180)
+					(length 7.62)
 					(name "SA"
 						(effects
 							(font
@@ -1592,7 +1592,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1601,8 +1601,8 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
+					(at 10.16 5.08 180)
+					(length 7.62)
 					(name "SB"
 						(effects
 							(font
@@ -1610,7 +1610,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3181,6 +3181,12 @@
 		(uuid "3e754e9d-cd4b-4842-9455-434271c84a85")
 	)
 	(junction
+		(at 121.92 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c62c859-41a5-4e63-bfca-d21a809f072c")
+	)
+	(junction
 		(at 142.24 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3215,6 +3221,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bdced07-7515-4dfe-92bf-69aefd99952b")
+	)
+	(junction
+		(at 152.4 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "757d4fd0-9924-44b6-90fe-431f23797719")
+	)
+	(junction
+		(at 152.4 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7820a2b8-64fc-4100-b5c7-205e8681e2c3")
 	)
 	(junction
 		(at 105.41 83.82)
@@ -3301,18 +3319,6 @@
 		(uuid "d7971133-ea7a-49d5-9875-ec138f4135a7")
 	)
 	(junction
-		(at 121.92 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d96bea89-1325-4f56-8fc1-800705b561a0")
-	)
-	(junction
-		(at 151.13 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0c61b8d-db84-4c4a-8266-d706b6bd7f8e")
-	)
-	(junction
 		(at 48.26 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3329,12 +3335,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eabb28fa-a405-47d5-a826-1aab94120599")
-	)
-	(junction
-		(at 151.13 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efa7f8c2-d362-4455-8437-0ede3f1f6fce")
 	)
 	(junction
 		(at 58.42 135.89)
@@ -3452,16 +3452,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 162.56 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b24942-9baf-4066-b14e-f7f3b459dff3")
-	)
-	(wire
-		(pts
 			(xy 195.58 59.69) (xy 195.58 58.42)
 		)
 		(stroke
@@ -3529,16 +3519,6 @@
 			(type default)
 		)
 		(uuid "1e2a1d9a-5189-4c3b-ba15-59f500dd882a")
-	)
-	(wire
-		(pts
-			(xy 147.32 24.13) (xy 151.13 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d7cfdd-6c9b-4633-aab7-3132f94226a2")
 	)
 	(wire
 		(pts
@@ -3672,6 +3652,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 34.29) (xy 170.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8cbd14-7ff4-4329-a6d7-a65471bb370e")
+	)
+	(wire
+		(pts
 			(xy 142.24 135.89) (xy 142.24 132.08)
 		)
 		(stroke
@@ -3689,16 +3679,6 @@
 			(type default)
 		)
 		(uuid "4024ec0e-0294-409b-900e-ec50119a128b")
-	)
-	(wire
-		(pts
-			(xy 147.32 54.61) (xy 158.75 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4197d598-3c63-4b14-a6fb-df8e2c42d0ad")
 	)
 	(wire
 		(pts
@@ -3732,6 +3712,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 24.13) (xy 152.4 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5097a1-b532-415d-ad53-b824896ea07a")
+	)
+	(wire
+		(pts
 			(xy 69.85 62.23) (xy 69.85 66.04)
 		)
 		(stroke
@@ -3739,16 +3729,6 @@
 			(type default)
 		)
 		(uuid "4b07da51-cf7b-4f1c-9e75-6682b880ddc4")
-	)
-	(wire
-		(pts
-			(xy 151.13 34.29) (xy 170.18 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6ec5a9-f612-458f-aed0-8b34096dd0f5")
 	)
 	(wire
 		(pts
@@ -3862,6 +3842,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 34.29) (xy 152.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cb04a3-a0f5-483c-9062-6da477eb0d6f")
+	)
+	(wire
+		(pts
 			(xy 105.41 83.82) (xy 115.57 83.82)
 		)
 		(stroke
@@ -3899,16 +3889,6 @@
 			(type default)
 		)
 		(uuid "66d0cd40-7de0-4932-b3ce-5ea9609b0ba2")
-	)
-	(wire
-		(pts
-			(xy 130.81 34.29) (xy 132.08 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "683eb603-b29b-4d48-bb86-11f033a11e90")
 	)
 	(wire
 		(pts
@@ -3972,16 +3952,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 24.13) (xy 128.27 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738257f3-beab-4aa3-afc1-f747937fd68c")
-	)
-	(wire
-		(pts
 			(xy 158.75 132.08) (xy 158.75 130.81)
 		)
 		(stroke
@@ -4022,16 +3992,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 34.29) (xy 151.13 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78193584-92cc-4d1c-a4c0-b09b4c192011")
-	)
-	(wire
-		(pts
 			(xy 142.24 115.57) (xy 158.75 115.57)
 		)
 		(stroke
@@ -4042,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 33.02) (xy 151.13 34.29)
+			(xy 152.4 33.02) (xy 152.4 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4182,6 +4142,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 24.13) (xy 130.81 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4b6738-7587-46d6-8cbc-729d6310e01a")
+	)
+	(wire
+		(pts
 			(xy 83.82 54.61) (xy 91.44 54.61)
 		)
 		(stroke
@@ -4282,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 54.61) (xy 132.08 54.61)
+			(xy 121.92 54.61) (xy 130.81 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4309,6 +4279,16 @@
 			(type default)
 		)
 		(uuid "ae2ed4c4-5b67-4706-9f39-156ade2f4ac7")
+	)
+	(wire
+		(pts
+			(xy 152.4 24.13) (xy 170.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec1fa78-608d-4d58-b67c-9171d2ee3dfa")
 	)
 	(wire
 		(pts
@@ -4442,16 +4422,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 24.13) (xy 170.18 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b07e66-76f9-41f6-b196-41069195f070")
-	)
-	(wire
-		(pts
 			(xy 184.15 83.82) (xy 195.58 83.82)
 		)
 		(stroke
@@ -4469,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "c533ab6d-aac2-43d7-9bd3-f72a9c996a00")
-	)
-	(wire
-		(pts
-			(xy 130.81 44.45) (xy 132.08 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c54f0790-7006-4333-97b8-d53d489734a5")
 	)
 	(wire
 		(pts
@@ -4512,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 24.13) (xy 151.13 25.4)
+			(xy 152.4 24.13) (xy 152.4 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4549,6 +4509,16 @@
 			(type default)
 		)
 		(uuid "d4768c5a-c998-4ace-97bc-3aa33e8a038f")
+	)
+	(wire
+		(pts
+			(xy 151.13 44.45) (xy 162.56 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e9e439-7d7c-4be1-ba93-ae9f26619455")
 	)
 	(wire
 		(pts
@@ -4639,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "e0780b74-fdcf-4a13-a261-87102bd336d4")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b30dc6-c502-46ce-9458-ca2d5cc8dbbc")
 	)
 	(wire
 		(pts
@@ -5666,6 +5646,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Transformer_1P_1S")
+		(at 140.97 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c59f6d-753f-42e3-99bd-800af01208b1")
+		(property "Reference" "T1"
+			(at 140.9827 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1:1 600R"
+			(at 140.9827 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transformer, single primary, single secondary"
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "580f02a2-4e6c-4ff1-9f71-1daf6159a732")
+		)
+		(pin "2"
+			(uuid "0f08d2fe-31f1-468d-992f-0f67c5494880")
+		)
+		(pin "3"
+			(uuid "f5e4abb6-db9a-44dc-8adc-5ae69783027c")
+		)
+		(pin "4"
+			(uuid "a7f6239a-b366-4a88-8595-6d46e167343b")
+		)
+		(instances
+			(project "NodePilot"
+				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 110.49 119.38 90)
 		(mirror x)
@@ -6300,93 +6366,6 @@
 			(project "NodePilot"
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_1P_1S_SO8")
-		(at 139.7 49.53 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38df5f03-ca9f-4927-b27c-4b46c31be6ed")
-		(property "Reference" "T1"
-			(at 139.7127 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1:1 600R"
-			(at 139.7127 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D10.5mm_Amidon-T37"
-			(at 139.7 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Transformer, single primary, single secondary, SO-8 package"
-			(at 139.7 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "484469d2-42dc-417d-8e9b-843e92bd1b01")
-		)
-		(pin "4"
-			(uuid "8195b0fe-96ac-419b-9bf3-5189b5d23a9c")
-		)
-		(pin "8"
-			(uuid "cddbd7ef-1cfe-42e6-a610-77f948b770a0")
-		)
-		(pin "5"
-			(uuid "dcf8a733-1e9b-4af3-b5b2-307c66ce6cf5")
-		)
-		(instances
-			(project "NodePilot"
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -7564,7 +7543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 151.13 29.21 0)
+		(at 152.4 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7575,7 +7554,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c7d9a75-1e69-4188-aafb-fc08941da491")
 		(property "Reference" "R6"
-			(at 153.67 27.9399 0)
+			(at 154.94 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7586,7 +7565,7 @@
 			)
 		)
 		(property "Value" "680 ohm"
-			(at 153.67 30.4799 0)
+			(at 154.94 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7597,7 +7576,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 152.146 29.464 90)
+			(at 153.416 29.464 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 29.21 0)
+			(at 152.4 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7598,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 151.13 29.21 0)
+			(at 152.4 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7802,119 +7781,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "224ba10d-2600-414a-a2dc-1e8aa575bfa7")
+			(uuid "224ba10d-2600-414a-a2dc-1e8aa575bfa8")
 		)
 		(pin "4"
-			(uuid "c3c738b5-5b6c-41ff-aaae-b98d1274c56f")
+			(uuid "c3c738b5-5b6c-41ff-aaae-b98d1274c570")
 		)
 		(pin "6"
-			(uuid "d38c52a9-1a2e-42f1-87b2-5467b1683857")
+			(uuid "d38c52a9-1a2e-42f1-87b2-5467b1683858")
 		)
 		(pin "2"
-			(uuid "38f94195-c030-44c7-8a23-af2fe0d6f502")
+			(uuid "38f94195-c030-44c7-8a23-af2fe0d6f503")
 		)
 		(pin "7"
-			(uuid "1789c0ee-ba16-409f-b2f3-f05a680c29c4")
+			(uuid "1789c0ee-ba16-409f-b2f3-f05a680c29c5")
 		)
 		(pin "8"
-			(uuid "c7dfcc35-4b33-4f17-9853-12185a8c85ac")
+			(uuid "c7dfcc35-4b33-4f17-9853-12185a8c85ad")
 		)
 		(pin "1"
-			(uuid "850398b8-f50a-4037-bff4-4b27061e8292")
+			(uuid "850398b8-f50a-4037-bff4-4b27061e8293")
 		)
 		(pin "5"
-			(uuid "dbbc5583-9e70-4c78-b816-5b2c10344896")
+			(uuid "dbbc5583-9e70-4c78-b816-5b2c10344897")
 		)
 		(instances
 			(project "NodePilot"
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_1P_1S_SO8")
-		(at 139.7 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "857cdb6e-1209-4726-b148-a33a170b8150")
-		(property "Reference" "T2"
-			(at 139.7127 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1:1 600R"
-			(at 139.7127 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D10.5mm_Amidon-T37"
-			(at 139.7 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Transformer, single primary, single secondary, SO-8 package"
-			(at 139.7 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "564f5b35-0071-4177-a866-602101db07e6")
-		)
-		(pin "5"
-			(uuid "7bfd6bad-f329-4668-9671-e5590bc641b0")
-		)
-		(pin "4"
-			(uuid "de313b23-1f75-44c5-a367-4f6f383fa47e")
-		)
-		(pin "1"
-			(uuid "a2d15d06-03ce-4b17-960c-fb8cd3318ac5")
-		)
-		(instances
-			(project "NodePilot"
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -9236,6 +9129,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Transformer_1P_1S")
+		(at 140.97 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0a6639-e262-4271-a801-00a60e231926")
+		(property "Reference" "T2"
+			(at 140.9827 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1:1 600R"
+			(at 140.9827 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transformer, single primary, single secondary"
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3bed3901-5eac-4492-bc30-c326def8d6ed")
+		)
+		(pin "1"
+			(uuid "a7d5c7bf-b2e8-460f-81c0-36f78476c6ee")
+		)
+		(pin "3"
+			(uuid "cf5b9756-c040-4735-b73e-63a70ed9162b")
+		)
+		(pin "2"
+			(uuid "80dac0ee-f25a-4c9c-af88-f1548fc80d69")
+		)
+		(instances
+			(project "NodePilot"
+				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 127 140.97 90)
 		(unit 1)
@@ -9380,28 +9359,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "224ba10d-2600-414a-a2dc-1e8aa575bfa7")
+			(uuid "224ba10d-2600-414a-a2dc-1e8aa575bfa9")
 		)
 		(pin "4"
-			(uuid "c3c738b5-5b6c-41ff-aaae-b98d1274c56f")
+			(uuid "c3c738b5-5b6c-41ff-aaae-b98d1274c571")
 		)
 		(pin "6"
-			(uuid "d38c52a9-1a2e-42f1-87b2-5467b1683857")
+			(uuid "d38c52a9-1a2e-42f1-87b2-5467b1683859")
 		)
 		(pin "2"
-			(uuid "38f94195-c030-44c7-8a23-af2fe0d6f502")
+			(uuid "38f94195-c030-44c7-8a23-af2fe0d6f504")
 		)
 		(pin "7"
-			(uuid "1789c0ee-ba16-409f-b2f3-f05a680c29c4")
+			(uuid "1789c0ee-ba16-409f-b2f3-f05a680c29c6")
 		)
 		(pin "8"
-			(uuid "c7dfcc35-4b33-4f17-9853-12185a8c85ac")
+			(uuid "c7dfcc35-4b33-4f17-9853-12185a8c85ae")
 		)
 		(pin "1"
-			(uuid "850398b8-f50a-4037-bff4-4b27061e8292")
+			(uuid "850398b8-f50a-4037-bff4-4b27061e8294")
 		)
 		(pin "5"
-			(uuid "dbbc5583-9e70-4c78-b816-5b2c10344896")
+			(uuid "dbbc5583-9e70-4c78-b816-5b2c10344898")
 		)
 		(instances
 			(project "NodePilot"
