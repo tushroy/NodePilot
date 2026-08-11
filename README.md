@@ -27,6 +27,12 @@ Notes: If you are using buck converters to power Raspberry Pi boards, make sure 
 
 ---
 
+## 📐 PCB
+
+![NodePilot PCB](/images/NodePilotPCB.png)
+
+---
+
 <img src="/images/NodePilot_Remix_v1.0.jpeg" width="60%">
 
 ---
