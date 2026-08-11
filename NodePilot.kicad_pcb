@@ -6359,9 +6359,9 @@
 	(footprint "logo:node_pilot_logo"
 		(layer "F.Cu")
 		(uuid "62bff5ac-a4cf-4b7e-8a01-b5d5000f42bd")
-		(at 82.5 48.5 -90)
+		(at 80.5 40)
 		(property "Reference" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "107d021e-f86f-43c4-a582-f54610d493b7")
 			(effects
@@ -6372,7 +6372,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 90)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "853d20f2-e854-407e-9170-c9e094436f73")
@@ -6384,7 +6384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9931aa7d-48b7-401c-ab97-642fc7450532")
@@ -6395,7 +6395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6544354-75a5-4cc1-a8b9-43790b39d672")
@@ -6562,23 +6562,6 @@
 		)
 		(fp_poly
 			(pts
-				(xy 1.535445 1.22711) (xy 1.6194 1.287923) (xy 1.652195 1.369019) (xy 1.631375 1.424225) (xy 1.538238 1.481943)
-				(xy 1.483847 1.491288) (xy 1.395967 1.531296) (xy 1.346808 1.599526) (xy 1.321243 1.644384) (xy 1.31011 1.612372)
-				(xy 1.311132 1.494757) (xy 1.312279 1.467235) (xy 1.320439 1.371911) (xy 1.350859 1.371911) (xy 1.37904 1.411111)
-				(xy 1.456948 1.443417) (xy 1.542055 1.429338) (xy 1.587031 1.377974) (xy 1.587499 1.371023) (xy 1.545681 1.312987)
-				(xy 1.467234 1.298864) (xy 1.367962 1.31884) (xy 1.350859 1.371911) (xy 1.320439 1.371911) (xy 1.324823 1.320689)
-				(xy 1.353047 1.245048) (xy 1.408104 1.215108) (xy 1.425158 1.212118)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "1212bce3-bf9e-4e27-8e01-401fed2ad0ac")
-		)
-		(fp_poly
-			(pts
 				(xy -0.432955 -0.55322) (xy -0.432955 0.24053) (xy -0.619858 0.24053) (xy -0.806761 0.24053) (xy -1.136998 -0.348769)
 				(xy -1.467236 -0.938068) (xy -1.480743 -0.348769) (xy -1.49425 0.24053) (xy -1.637087 0.24053) (xy -1.779925 0.24053)
 				(xy -1.779925 -0.55322) (xy -1.779925 -1.34697) (xy -1.575474 -1.345941) (xy -1.371023 -1.344912)
@@ -6594,6 +6577,23 @@
 			(fill yes)
 			(layer "F.SilkS")
 			(uuid "93436d6f-7019-4d6a-9bea-a189a3a38edc")
+		)
+		(fp_poly
+			(pts
+				(xy 1.535445 1.22711) (xy 1.6194 1.287923) (xy 1.652195 1.369019) (xy 1.631375 1.424225) (xy 1.538238 1.481943)
+				(xy 1.483847 1.491288) (xy 1.395967 1.531296) (xy 1.346808 1.599526) (xy 1.321243 1.644384) (xy 1.31011 1.612372)
+				(xy 1.311132 1.494757) (xy 1.312279 1.467235) (xy 1.320439 1.371911) (xy 1.350859 1.371911) (xy 1.37904 1.411111)
+				(xy 1.456948 1.443417) (xy 1.542055 1.429338) (xy 1.587031 1.377974) (xy 1.587499 1.371023) (xy 1.545681 1.312987)
+				(xy 1.467234 1.298864) (xy 1.367962 1.31884) (xy 1.350859 1.371911) (xy 1.320439 1.371911) (xy 1.324823 1.320689)
+				(xy 1.353047 1.245048) (xy 1.408104 1.215108) (xy 1.425158 1.212118)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "1212bce3-bf9e-4e27-8e01-401fed2ad0ac")
 		)
 		(fp_poly
 			(pts
@@ -19336,6 +19336,44 @@
 		(layer "Edge.Cuts")
 		(uuid "8497c3ad-324d-4a12-8bf6-26dd850e1dbb")
 	)
+	(gr_text "Rev 2.3"
+		(at 64.5 85 90)
+		(layer "F.SilkS")
+		(uuid "f17a26bf-60f9-4797-9a8b-59644c61c88d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S21TIP"
+		(at 62.5 85 90)
+		(layer "F.SilkS")
+		(uuid "2bf5c958-4f0a-44af-bf77-4a6c3f6de93e")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "NodePilot Advanced"
+		(at 60 85 90)
+		(layer "F.SilkS")
+		(uuid "eaee5705-09c5-41a4-bdfe-460ac92ee4a0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 86.5 57.96)
 		(end 89.96 57.96)
@@ -20655,6 +20693,12 @@
 		(layer "F.Cu")
 		(net "Net-(T1-SA)")
 		(uuid "b6c30bc5-bff5-416e-8e32-dfa5854a4768")
+	)
+	(group ""
+		(uuid "5191329b-7710-4955-a506-c84cb43205a9")
+		(members "2bf5c958-4f0a-44af-bf77-4a6c3f6de93e" "eaee5705-09c5-41a4-bdfe-460ac92ee4a0"
+			"f17a26bf-60f9-4797-9a8b-59644c61c88d"
+		)
 	)
 	(embedded_fonts no)
 )
