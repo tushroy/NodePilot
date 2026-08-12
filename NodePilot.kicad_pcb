@@ -19488,8 +19488,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 98.785113 65.5)
-		(end 198.785113 133)
+		(start 98.785113 64.5)
+		(end 198.785113 134.5)
 		(radius 1)
 		(stroke
 			(width 0.05)
@@ -19500,8 +19500,8 @@
 		(uuid "e08df11e-b68e-414d-9a9a-335cb0d19367")
 	)
 	(gr_circle
-		(center 103 129)
-		(end 104.5 129)
+		(center 103 130.5)
+		(end 104.5 130.5)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -19511,8 +19511,8 @@
 		(uuid "17228c06-d5d4-4019-b201-e0b5ceea5729")
 	)
 	(gr_circle
-		(center 104.285113 71)
-		(end 105.285113 71)
+		(center 104 70)
+		(end 105 70)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -19522,8 +19522,8 @@
 		(uuid "3100c395-ad64-406e-918a-08d7de645e5f")
 	)
 	(gr_circle
-		(center 104.285113 93)
-		(end 105.285113 93)
+		(center 104 92)
+		(end 105 92)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -19533,8 +19533,8 @@
 		(uuid "a83da213-45fb-4cfb-ab77-3d1fc839f2aa")
 	)
 	(gr_circle
-		(center 115.785113 71)
-		(end 116.785113 71)
+		(center 115.5 70)
+		(end 116.5 70)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -19544,8 +19544,8 @@
 		(uuid "f204cd0b-6e79-407f-b3e8-3de1c346be0a")
 	)
 	(gr_circle
-		(center 115.785113 93)
-		(end 116.785113 93)
+		(center 115.5 92)
+		(end 116.5 92)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -19555,8 +19555,8 @@
 		(uuid "bdc04817-d8e2-4e58-b832-d4d14dbab07a")
 	)
 	(gr_circle
-		(center 127.285113 71)
-		(end 128.285113 71)
+		(center 127 70)
+		(end 128 70)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -19566,8 +19566,8 @@
 		(uuid "d8db7f43-b3f1-4254-a4df-ac52e6de0fa0")
 	)
 	(gr_circle
-		(center 127.285113 93)
-		(end 128.285113 93)
+		(center 127 92)
+		(end 128 92)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -19577,8 +19577,8 @@
 		(uuid "046c5cac-313f-45c3-9551-9920c8417724")
 	)
 	(gr_circle
-		(center 194.5 69.5)
-		(end 196 69.5)
+		(center 194.5 68.5)
+		(end 196 68.5)
 		(stroke
 			(width 0.2)
 			(type default)
