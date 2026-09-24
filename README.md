@@ -33,7 +33,7 @@ Notes: If you are using buck converters to power Raspberry Pi boards, make sure 
 
 ---
 
-<img src="/images/NodePilot_Remix_v1.0.jpeg" width="60%">
+<img src="/images/NodePilot_Remix_v1.0.jpeg" width="60%"><img src="/images/NodePilotPCBA.jpg" width="30.1%">
 
 ---
 
